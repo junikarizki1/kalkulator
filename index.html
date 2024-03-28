@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kalkulator">
+        <h6 style="color: white;">Rizki Jr</h6>
+        <input type="text" class="screen" id="screen" placeholder="0" disabled/>
+        <button class="simbol" onclick="wipe()">AC</button>
+        <button class="simbol" onclick="back()">DEL</button>
+        <button class="simbol" onclick="tampil('/')">/</button>
+        <button class="simbol" onclick="tampil('*')">x</button/>
+
+        <button class="number" onclick="tampil('7')">7</button>
+        <button class="number" onclick="tampil('8')">8</button>
+        <button class="number" onclick="tampil('9')">9</button>
+        <button class="simbol" onclick="tampil('-')">-</button>
+
+        <button class="number" onclick="tampil('4')">4</button>
+        <button class="number" onclick="tampil('5')">5</button>
+        <button class="number" onclick="tampil('6')">6</button>
+        <button class="simbol" onclick="tampil('+')">+</button>
+
+        <button class="number" onclick="tampil('1')">1</button>
+        <button class="number" onclick="tampil('2')">2</button>
+        <button class="number" onclick="tampil('3')">3</button>
+        <button class="simbol" onclick="tampil('.')">.</button>
+
+        <button class="number" onclick="tampil('0')">0</button>
+        <button class="number" onclick="tampil('00')">00</button>
+        <button class="number" onclick="tampil('000')">000</button>
+        <button class="simbol" onclick="calc('=')">=</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
